@@ -1,0 +1,1 @@
+lista_abc_presence, lista_punct_presence, lista_numb_presence = False, False, False 
