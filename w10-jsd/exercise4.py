@@ -11,4 +11,23 @@ range(stop). You must check that the types of the parameters are correct (int) a
 their range is also correct. If not an empty tuple will be returned.
 """
 
-'''pa mañanica'''
+def range_fn(start = 0, stop = None, step = 1):
+    # If only one parameter is introduced, the parameter, then start will be 0, 
+    # and stop the parameter that is is introduced at start. 
+    if stop == None:
+            stop = start
+            start = 0
+
+    if (type(start) or type(stop) or type(step)) != int:
+        return ()
+    elif start > stop:
+        return ()
+    else:
+        lista = []
+        num = start
+        while num < stop:
+            lista.append(num)
+            num += step
+        return tuple(lista)
+
+print(range_fn(1,100))
