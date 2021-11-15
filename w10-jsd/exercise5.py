@@ -62,6 +62,7 @@ verify(own_index(general_list, 12), general_list.index(12))
 
 print('append:')
 lista_append1, lista_append2, lista_append3 = general_list, general_list, general_list
+'''Try lista_append1 = lista_append2 = lista_append3 = general_list'''
 print(own_append(lista_append1, 1))
 lista_append3.append(1)
 verify(own_append(lista_append2, 1),lista_append3 )
