@@ -23,4 +23,4 @@ def fibbo(num:int):
             output_list.append(output_list[i-1]+output_list[i-2])
     return output_list
 
-print(fibbo(1000000000))
+print(fibbo(100))
