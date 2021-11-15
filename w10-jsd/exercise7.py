@@ -13,10 +13,14 @@ Output: [0, 1, 1, 2, 3, 5, 8, 13]
 """
 
 def fibbo(num:int):
-    for i in range(num):
-        if num = 0:
-            f(num) = 0
-        if num = 1:
-            f(num) = 1
-        if num > 1:
-            f(num) = f(num - 1) + f(num - 2) 
+    output_list = []
+    for i in range(num + 1):
+        if i == 0:
+            output_list.append(0)
+        elif i == 1:
+            output_list.append(1)
+        else:
+            output_list.append(output_list[i-1]+output_list[i-2])
+    return output_list
+
+print(fibbo(1000000000))
