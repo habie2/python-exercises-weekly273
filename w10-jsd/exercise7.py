@@ -11,3 +11,12 @@ Define a function that prints the Fibonacci sequence from a given number. Exampl
 fibonacci(7)
 Output: [0, 1, 1, 2, 3, 5, 8, 13]
 """
+
+def fibbo(num:int):
+    for i in range(num):
+        if num = 0:
+            f(num) = 0
+        if num = 1:
+            f(num) = 1
+        if num > 1:
+            f(num) = f(num - 1) + f(num - 2) 

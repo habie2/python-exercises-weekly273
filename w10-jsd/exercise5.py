@@ -102,7 +102,7 @@ lista_removeAll1  = general_list[:]
 verify('removeAll:', own_removeAll(lista_removeAll1, 12), [3, 45, 25, 43, 21, 26, 4, 38, 6, 39, 33, 28])
 
 lista_clear1, lista_clear2 = general_list[:],  general_list[:]
-verify('clear', own_clear(lista_clear1), lista_clear2.clear())
+verify('clear:', own_clear(lista_clear1), lista_clear2.clear())
 
 lista_pop1, lista_pop2 = general_list[:],  general_list[:]
-verify('pop', own_pop(lista_pop1), lista_pop2.pop())
+verify('pop:', own_pop(lista_pop1), lista_pop2.pop())
