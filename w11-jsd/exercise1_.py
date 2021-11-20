@@ -12,4 +12,8 @@ the user by keyboard and prints them.
 """
 from ClassExercise1 import Student
 
-var1 = Student(input)
+student1 = Student(input('name: '), input('surname: '), int(input('programming_mark: ')),
+int(input('algebra_mark: ')), int(input('calculus_mark: ')), int(input('physics_mark: ')),
+int(input('skills_mark: ')), int(input('humanities_mark: ')))
+
+print(student1)
