@@ -7,3 +7,15 @@ for _ in range(15):
 print(general_list)
 
 '''
+'''
+*********************METODOS DE LISTAS*********************
+
+count
+index
+append
+insert
+remove
+removeAll
+clear
+pop
+'''

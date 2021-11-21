@@ -1,7 +1,7 @@
 """
 @title: exercise1
 @author: habi2
-@date: 11/11/2021
+@date: 20/11/2021
 
 Create the Student class, which represents a first year student. Its fields will be: name,
 surname, programming mark, algebra mark, calculus mark, physics mark,

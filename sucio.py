@@ -3,5 +3,5 @@ lista = [1, 3, 3, 3, 3, 6]
 #print('\b\b')
 #print(len(lista))
 #print(lista.index(6, 0))
-lista = lista[:-1]
+cuenta = lista[:-1]
 print(lista)

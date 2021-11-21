@@ -1,7 +1,7 @@
 """
 @title: exercise2
 @author: habi2
-@date: 11/11/2021
+@date: 20/11/2021
 
 Create a new type named RightTriangle to represent a right triangle, with fields base
 and height. Create an init method that receives both fields as parameters and checks if they
