@@ -35,14 +35,15 @@ class Student:
             self.humanities_mark = 0
 
     def __str__(self):
-        result = (f"""name: {self.name}
-        surname: {self.surname}
-        programming mark: {self.programming_mark}
-        algebra mark: {self.algebra_mark}
-        calculus mark: {self.calculus_mark}
-        physics mark: {self.physics_mark}
-        skills mark: {self.skills_mark}
-        humanities mark: {self.humanities_mark}
+        result = (f"""
+name: {self.name}
+surname: {self.surname}
+programming mark: {self.programming_mark}
+algebra mark: {self.algebra_mark}
+calculus mark: {self.calculus_mark}
+physics mark: {self.physics_mark}
+skills mark: {self.skills_mark}
+humanities mark: {self.humanities_mark}
         """
         )
         return result

@@ -10,10 +10,10 @@ fields and checks that the values for the marks are in the right range (if not, 
 assigned to the mark). Write a program that creates an object of this type, fills the fields asking
 the user by keyboard and prints them.
 """
-from ClassExercise1 import Student
+from exercise1 import Student
 
-student1 = Student(input('name: '), input('surname: '), int(input('programming_mark: ')),
-int(input('algebra_mark: ')), int(input('calculus_mark: ')), int(input('physics_mark: ')),
-int(input('skills_mark: ')), int(input('humanities_mark: ')))
+student1 = Student(input('name: '), input('surname: '), int(input('programming mark: ')),
+int(input('algebra mark: ')), int(input('calculus mark: ')), int(input('physics mark: ')),
+int(input('skills mark: ')), int(input('humanities mark: ')))
 
 print(student1)
