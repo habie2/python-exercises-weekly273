@@ -13,8 +13,8 @@ highest total score will win.
 """
 from exercise3class import Dice
 
-player1 = Dice('Pedro', 6)
-player2 = Dice('Paco', 7)
+player1 = Dice(input('Name player 1: '), int(input('Number of throws player 1: ')))
+player2 = Dice(input('Name player 2: '), int(input('Number of throws player 2: ')))
 
 print(player1, player2)
-
+print(player1 == player2)
