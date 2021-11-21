@@ -11,7 +11,7 @@ asking each player his/her name. It must print the results for each one and calc
 which will be the one with the highest number of equal dice. In case of a tie, the one with the
 highest total score will win.
 """
-from exercise3class import Dice
+from exercise3classDice import Dice
 
 player1 = Dice(input('Name player 1: '), int(input('Number of throws player 1: ')))
 player2 = Dice(input('Name player 2: '), int(input('Number of throws player 2: ')))

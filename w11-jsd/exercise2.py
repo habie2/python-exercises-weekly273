@@ -10,7 +10,7 @@ the base and the height and store them in a RightTriangle object. Next it should
 the user whether the area or the perimeter of the triangle has to be calculated and print the
 resulting value.
 """
-from exercise2class import RightTriangle
+from exercise2classRightTriangle import RightTriangle
 
 print(RightTriangle(int(input('base: ')), int(input('height: ')), input('area or perimmeter? (a/p) ')))
 
