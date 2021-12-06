@@ -12,7 +12,7 @@ class Block:
             pyxel.image(1).load(0, 0, "mario assets/bricks.png")
 
     def brick_coins(self, sprite):
-
+        True
 
     def question(self, sprite):
 
