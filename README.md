@@ -1,4 +1,2 @@
 # weekly
-Ejercicios Programming I, Ingeniería Informática UC3M
-
-hola2
+Collection of exercises for Programming course.
